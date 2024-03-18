@@ -1,0 +1,10 @@
+version: '3.0'
+services:
+  eumira-empty-app:
+    container_name: eumira-empty-app
+    image: eumirasoft/eumira-empty-app:0.0.1
+    ports:
+      - 8080:8080
+    mem_limit: 256m
+    mem_reservation: 256m
+    cpus: 1.0
